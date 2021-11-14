@@ -1013,6 +1013,16 @@ footer {
         display: none;
     }
 }
+@media (max-width: 1315px) {
+    .whole-footer {
+        min-height: 65vh;
+    }
+}
+@media (max-width: 1012px) {
+    .whole-footer {
+        min-height: 55vh;
+    }
+}
 
 
 
