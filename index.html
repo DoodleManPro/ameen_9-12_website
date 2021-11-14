@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links for Different CDNs-------------------------------------------------------------------------->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Logo in Title-->
+    <link rel="icon" href="./images/logo.png">
+
+    <title>Class 9-12 DIS Website</title>
+</head>
+<body>
+<!--Logo and Menu------------------------------------------------------------------------------>
+<img src="images/logo.png" id="logo">
+
+<div class="bar-bg"><ion-icon class="bar-icon" name="apps-outline"></ion-icon></div>
+<div class="click-out"></div>
+<nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item"><a href="#home" class="nav-link"><span></span>HOME</a></li>
+        <li class="nav-item"><a href="#achievements" class="nav-link"><span></span>ACHIEVEMENTS</a></li>
+        <li class="nav-item"><a href="#notes" class="nav-link"><span></span>NOTE APP</a></li>
+        <li class="nav-item"><a href="#teachers" class="nav-link"><span></span>OUR TEACHERS</a></li>
+        <li class="nav-item"><a href="#videos" class="nav-link"><span></span>USEFUL VIDEOS</a></li>
+        <li class="nav-item"><a href="#mplanner" class="nav-link"><span></span>MONTHLY PLANNER</a></li>
+        <br><br>
+        <li class="nav-item"><a href="https://www.youtube.com/channel/UC1mk0CwguNbt5PTxnVufmLQ/videos" class="nav-link" target="_blank"><span></span>VIRTUAL ASSEMBLY</a></li>
+        <li class="nav-item"><a href="http://ict.dunesinternationalschool.com/RPSM/" class="nav-link" target="_blank"><span></span>SCHOOL PORTAL</a></li>
+    </ul>
+    <ion-icon class="close-icon" name="arrow-forward-outline"></ion-icon>
+</nav>
+
+<!--Home Page: Landing_Page-------------------------------------------------------------------->
+
+<section class="container home-page" id="home">
+
+    <div class="heading home-heading">
+        <h1>CLASS 9-12</h1>
+        <div class="divider"></div>
+        <h3 class="tagline tg1">Academic Session 2021-2022</h3>
+        <h3 class="tagline tg2">Ameen Ahmed 9A</h3>
+    </div>
+</section>
+
+<!--Achievements Divider Page---------------------------------------------------------------->
+
+<section class="container achievements-page" id="achievements">
+    <div class="heading common-heading achievement-heading">
+        <h1 class="gold animate-top">Achievements</h1>
+        <h3 class="black animate-bottom600">Look at what we have achieved</h3>
+    </div>
+    <!--The 4 Boxes:-->
+    <div class="box-row">
+        <div class="box b1 animate-bottom"><a href="./gr9.html" class="box-link" target="_blank"></a><div class="grade">GRADE</div><div class="number">9</div></div>
+        <div class="box b2 animate-bottom600"><a href="./gr10.html" class="box-link" target="_blank"></a><div class="grade">GRADE</div><div class="number">10</div></div>
+        <div class="box b3 animate-bottom900"><a href="./gr11.html" class="box-link" target="_blank"></a><div class="grade">GRADE</div><div class="number">11</div></div>
+        <div class="box b4 animate-bottom1200"><a href="./gr12.html" class="box-link" target="_blank"></a><div class="grade">GRADE</div><div class="number">12</div></div>
+    </div>
+</section>
+
+<!--Notes App Page---------------------------------------------------------------->
+
+<section class="container note-app" id="notes">
+    <div class="heading common-heading">
+        <h1 class="gold animate-top">Write!</h1>
+        <h3 class="black animate-bottom600">take down points</h3>
+    </div>
+        <form>
+            <input type="text" class="todo-input animate-left">
+            <button class="todo-button animate-top" type="submit">
+                <ion-icon name="add-outline" class="animate-left600 bot"></ion-icon>
+            </button>
+            <div class="select animate-right">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
+        </div>
+</section>
+
+<!--Teachers Page---------------------------------------------------------------->
+<section class="container teacher-page" id="teachers">
+    <div class="heading common-heading teacher-heading">
+        <h1 class="gold animate-top">Our Teachers</h1>
+        <h3 class="black animate-bottom600">These are a few of our teachers</h3>
+    </div>
+    <div class="teacher-row">
+        <div class="teacher-box tb1 animate-left">
+            <h1 class="teacher-subject animate-left">Chemistry</h1>
+            <h2 class="teacher-name animate-left">Ganga Lekshmi</h2>
+            <p class="teacher-email animate-left">gangalekshmi.r@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/008-flask.svg" alt="">
+        </div>
+        <div class="teacher-box tb2 animate-right600">
+            <h1 class="teacher-subject animate-right">Biology</h1>
+            <h2 class="teacher-name animate-right">Anila Suresh</h2>
+            <p class="teacher-email animate-right">anila.s@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/002-biology.svg" alt="">
+        </div>
+    </div>
+    <div class="teacher-row">
+        <div class="teacher-box tb animate-left">
+            <h1 class="teacher-subject animate-left">Physics</h1>
+            <h2 class="teacher-name animate-left">Mufeeda Komath</h2>
+            <p class="teacher-email animate-left">mufeeda.k@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/010-relativity.svg" alt="">
+        </div>
+        <div class="teacher-box tb4 animate-right600">
+            <h1 class="teacher-subject animate-right">Maths</h1>
+            <h2 class="teacher-name animate-right">Deborah Madira</h2>
+            <p class="teacher-email animate-right">deborah.m@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/001-calculating.svg" alt="">
+        </div>
+    </div>
+    <div class="teacher-row">
+        <div class="teacher-box tb5 animate-left">
+            <h1 class="teacher-subject animate-left">English</h1>
+            <h2 class="teacher-name animate-left">Arokia Raj</h2>
+            <p class="teacher-email animate-left">arokiaraj.s@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/007-eng.svg" alt="">
+        </div>
+        <div class="teacher-box tb6 animate-right600">
+            <h1 class="teacher-subject animate-right">Geography</h1>
+            <h2 class="teacher-name animate-right">Jyothi Jimmy</h2>
+            <p class="teacher-email animate-right">jyothi.j@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/004-history.svg" alt="">
+        </div>
+    </div>
+    <div class="teacher-row">
+        <div class="teacher-box tb5 animate-left">
+            <h1 class="teacher-subject animate-left">History</h1>
+            <h2 class="teacher-name animate-left">Sabiha Yousuf</h2>
+            <p class="teacher-email animate-left toolong">sabihayousuf@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/005-parchment.svg" alt="">
+        </div>
+        <div class="teacher-box tb6 animate-right600">
+            <h1 class="teacher-subject animate-right">Hindi</h1>
+            <h2 class="teacher-name animate-right">Deepak Tawade</h2>
+            <p class="teacher-email animate-right">deepak.t@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/006-india.svg" alt="">
+        </div>
+    </div>
+    <div class="teacher-row">
+        <div class="teacher-box tb5 animate-left">
+            <h1 class="teacher-subject animate-left">Islamic</h1>
+            <h2 class="teacher-name animate-left">Mohd. Jalal</h2>
+            <p class="teacher-email animate-left">jalal@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/praying.svg" alt="">
+        </div>
+        <div class="teacher-box tb6 animate-right600">
+            <h1 class="teacher-subject animate-right">Computers</h1>
+            <h2 class="teacher-name animate-right">Winnie Eldhose</h2>
+            <p class="teacher-email animate-right">winnie.e@dunesinternationalschool.com</p>
+            <img class="animate-bottom" src="images/teacher-icons/desktop.svg" alt="">
+        </div>
+    </div>
+    <div class="bottom-space">
+        <p class="animate-left">This is just a demo. More teachers' names will be added later.</p>
+    </div>
+</section>
+
+
+
+
+<!--Useful videos page---------------------------------------------------------------->
+
+<section class="container videos-page" id="videos">
+    <div class="common-heading videos-heading">
+        <h1 class="gold animate-top">Videos!</h1>
+        <h3 class="black animate-bottom600">Here are some useful videos</h3>
+    </div>
+    <div class="video-sub-heading">
+        <h1 class="black animate-left">Grade 9</h1>
+    </div>
+    <div class="wrapper animate-right600">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                
+                <div class="slide first">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_YKO5gemKlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Uf6BaaKyjj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgQYXJt9vNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sHMlOvSPrUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-sub-heading">
+        <h1 class="black animate-right">Grade 10</h1>
+    </div>
+    <div class="wrapper animate-left600">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+                <div class="navigation-manual">
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                </div>
+                
+                <div class="slide second">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vEnNPF0DAHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_jccTjCbuOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ubO1PcrN2b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sHMlOvSPrUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-space brown">
+        <p class="animate-left">This is just a demo. More videos will be added later.</p>
+    </div>
+</section>
+
+
+<!--Monthly Planner page---------------------------------------------------------------->
+
+<section class="container m-planner-page" id="mplanner">
+    <div class="common-heading m-planner-heading">
+        <h1 class="gold animate-top">Monthly Planner</h1>
+        <h3 class="black animate-bottom600">download the monthly planner</h3>
+    </div>
+    <div class="planner-wrapper">
+        <div class="planner-sub-heading black">
+            <div class="download-row">
+                <h1 class="animate-left">Grade 9:</h1>
+            <a class="download d9 animate-left900" href="./m-planners/grade-9_monthly_planner.pdf" download="grade-9_Monthly_Planner">DOWNLOAD<ion-icon class="download-icon" name="download-outline"></ion-icon></a>
+            </div>
+        </div>
+        <div class="planner-sub-heading black">
+            <div class="download-row">
+                <h1 class="animate-left">Grade 10:</h1>
+            <a class="download d10 alert animate-left900" href="#mplanner">DOWNLOAD<ion-icon class="download-icon" name="download-outline"></ion-icon></a>
+            </div>
+        </div>
+        <div class="planner-sub-heading black">
+            <div class="download-row">
+                <h1 class="animate-left">Grade 11:</h1>
+            <a class="download d11 alert animate-left900" href="#mplanner">DOWNLOAD<ion-icon class="download-icon" name="download-outline"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-space"><p class="animate-left">Monthly Planners will be updated every month.</p></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer---------------------------------------------------------------->
+<div class="whole-footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <footer>
+        <div class="footer-info animate-left">
+            <h1 class="animate-left">Info</h1>
+            <p class="animate-left">Website made by Ameen Ahmed</p>
+            <p class="animate-left600">Email: <span>mushyahamed007@gmail.com</span></p>
+            <p class="animate-left900">Class 9A, DIS</p>
+        </div>
+        <div class="footer-logo animate-bottom">
+            <img src="images/logo.png" class="logo">
+        </div>
+        <div class="footer-contact animate-right">
+            <h1 class="animate-right">Contact Me!</h1>
+            <p class="animate-right">Want to display your achievements on this website?</p>
+            <p class="animate-right600">Email me at <span>xyz@gmail.com</span></p>
+            <p class="animate-right900">I will upload it in a few days. Thank You!</p>
+        </div>
+        <p class="footer-credit animate-bottom">Credits: Landing Page Image by 
+            <a target="_blank" href="https://unsplash.com/@jeremybishop">Jeremy Bishop</a> from Unsplash
+        </p>
+    </footer>
+</div>
+
+
+
+
+
+
+<!--Scripts for JS and other CDNs----------------------------------------------------------------->
+    <script src="./java/app.js"></script>
+    <script src="./java/index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="java/rellax.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax', {
+            callback: function(position) {
+                
+            }
+        });
+    </script>
+</body>
+</html>
